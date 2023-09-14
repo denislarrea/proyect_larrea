@@ -1,0 +1,56 @@
+/* style.css */
+
+.listado {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 2rem;
+  padding-block: 2rem;
+  margin: 15px;
+}
+
+.producto {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  overflow: hidden;
+  align-items: center;
+  border-style:hidden;
+  color: black;
+  padding: 1rem; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1); 
+
+}
+
+.img-product {
+  background-color: rgb(205, 205, 243);
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  padding: 1rem; 
+}
+
+.gret-menssage {
+  /* Estilos del div */
+  background-color: #f2f2f2; /* Color de fondo del div */
+  padding: 5px; /* Espaciado interno del div */
+}
+
+.gret-menssage p {
+  /* Estilos del párrafo dentro del div */
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+
+  /* Animación para cambiar el color del texto */
+  animation: changeColor 5s infinite;
+}
+
+@keyframes changeColor {
+  /* Definimos los colores que queremos para la animación */
+  0% { color: blue; }
+  25% { color: red; }
+  50% { color: green; }
+  75% { color: orange; }
+  100% { color: purple; }
+}
+

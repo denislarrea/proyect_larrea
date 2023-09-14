@@ -1,0 +1,20 @@
+.card {
+    display: flex;
+    align-items: center;
+    
+}
+
+.card-text {
+    border-radius: 50px;
+    background-color: rgb(177, 47, 47);
+    size: 0.5px;
+    
+}
+
+
+.card-img {
+
+width: 40px;
+height: 40px;
+
+}
