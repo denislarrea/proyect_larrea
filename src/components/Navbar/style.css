@@ -47,3 +47,16 @@ body {
   text-decoration: underline;
 }
 
+.product-menu {
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  background-color: rgb(121, 134, 106);
+  color: white;
+  display: none; /* Inicialmente oculto */
+  z-index: 1;
+}
+
+.menu-link:hover .product-menu {
+  display: block; /* Mostrar el menú cuando el enlace se encuentra en hover */
+}

@@ -1,0 +1,128 @@
+[
+    {
+      "id": "1",
+      "titulo": "Fugazzeta con jamón",
+      "imagen": "https://images.deliveryhero.io/image/pedidosya/products/87d1409b-f779-4db8-8262-947f2ed22a32.jpg",
+      "precio": 4800,
+      "descripcion": "Pizza de 8 porciones con relleno de mozzarella, jamón y cebolla. Masa al molde.",
+      "stock": 10,
+      "categoria":"Pizzas"
+    },
+    {
+      "id": "2",
+      "titulo": "Pizza de pepperoni",
+      "imagen": "https://images.deliveryhero.io/image/pedidosya/products/34281550-aeef-4317-870f-124be3862017.jpg",
+      "precio": 4160,
+      "descripcion": "Mozzarella y pepperoni. Pizza de 8 porciones.",
+      "stock": 10,
+      "categoria":"Pizzas"
+    },
+    {
+      "id": "3",
+      "titulo": "Empanada de carne picada",
+      "imagen": "https://images.deliveryhero.io/image/pedidosya/products/f2ced35c-3c98-4a46-a0c1-3c50a4c09234.jpeg",
+      "precio": 470,
+      "descripcion": "Empanada de carne picada al horno. 1 unidad.",
+      "stock": 20,
+      "categoria":"Empanadas"
+    },
+    {
+      "id": "4",
+      "titulo": "Budín de pan",
+      "imagen": "https://images.deliveryhero.io/image/pedidosya/products/1669f5fa-4217-4974-a3f9-ae6846d8b28b.jpg",
+      "precio": 960,
+      "descripcion": "Porción de budín de pan.",
+      "stock": 6,
+      "categoria":"Postres"
+    },
+    {
+      "id": "5",
+      "titulo": "Helado",
+      "imagen": "https://images.deliveryhero.io/image/pedidosya/products/9111ab09-102f-4008-beb1-ca7b7660965b.jpg",
+      "precio": 2300,
+      "descripcion": "Pote de 1/4 de helado. Hasta 3 sabores a elección.",
+      "stock": 8,
+      "categoria":"Postres"
+    },
+    {
+      "id": "6",
+      "titulo": "Torta balcarce",
+      "imagen": "https://images.deliveryhero.io/image/pedidosya/products/fb12cdad-d580-4ee7-9155-daeb20e34552.jpeg",
+      "precio": 1200,
+      "descripcion": "Porción de torta balcarce.",
+      "stock": 10,
+      "categoria":"Postres"
+    },
+    {
+      "id": "7",
+      "titulo": "Milanesa del club",
+      "imagen": "https://images.deliveryhero.io/image/pedidosya/products/26d1731d-0f93-43ef-a5a2-d7858320e171.jpg",
+      "precio": 3133,
+      "descripcion": "Milanesa del club con guarnición. Muzzarella, jamón cocido, rodajas de tomate fresco, huevo frito y perejil.",
+      "stock": 5,
+      "categoria":"Milanesas"
+    },
+    {
+      "id": "8",
+      "titulo": "La bestia",
+      "imagen": "https://images.deliveryhero.io/image/pedidosya/products/9213b82c-1d86-4d5f-8227-ce4fc97bba6a.jpg",
+      "precio": 3750,
+      "descripcion": "Sándwich gigante de milanesa bien completo, puede ser de pollo o ternera. Viene con jamón cocido, queso muzzarella, mayonesa, mostaza, tomate, lechuga, cebolla morada y huevo frito. Además incluye papas fritas.",
+      "stock": 4,
+      "categoria":"Milanesas"
+    },
+    {
+      "id": "9",
+      "titulo": "Sushi combo 1",
+      "imagen": "https://images.deliveryhero.io/image/pedidosya/products/9213b82c-1d86-4d5f-8227-ce4fc97bba6a.jpg",
+      "precio": 3750,
+      "descripcion": "Tabla con 15 piezas de sushi",
+      "stock": 4,
+      "categoria":"Comida China"
+    },
+    {
+      "id": "10",
+      "titulo": "Poke salad",
+      "imagen": "https://images.deliveryhero.io/image/pedidosya/products/fc1d4bf4-b0cd-4e48-8492-fa81e42dbe0e.jpg",
+      "precio": 3750,
+      "descripcion": "Ensalada de arroz, queso untable, verduras ralladas, palta y camarones rebozados",
+      "stock": 4,
+      "categoria":"Comida China"
+    },
+    {
+      "id": "11",
+      "titulo": "Fra-nui",
+      "imagen": "https://images.deliveryhero.io/image/pedidosya/products/2d6d5ac7-db10-414d-94a5-836fb6e9982b.jpg",
+      "precio": 3750,
+      "descripcion": "Bombones congelados de frambuesa banada en chocolate blanco y con leche.",
+      "stock": 4,
+      "categoria":"Postres"
+    },
+    {
+      "id": "12",
+      "titulo": "Sushi combo 2",
+      "imagen": "https://images.deliveryhero.io/image/pedidosya/products/2fd9bcb7-8f67-46a6-94b2-65b97a8ef144.jpg",
+      "precio": 3750,
+      "descripcion": "Otro combo de sushi",
+      "stock": 4,
+      "categoria":"Comida China"
+    },
+    {
+      "id": "13",
+      "titulo": "Sushi combo 3",
+      "imagen": "https://images.deliveryhero.io/image/pedidosya/products/ff7f29f8-7182-47f8-bab2-8b38fb9ed1a9.jpg",
+      "precio": 3750,
+      "descripcion": "Otro combo de sushi",
+      "stock": 4,
+      "categoria":"Comida China"
+    },
+    {
+      "id": "14",
+      "titulo": "Arrolladitos primavera",
+      "imagen": "https://images.deliveryhero.io/image/pedidosya/products/ea33ab7e-5fb7-4e34-b628-f024c56945b8.jpg",
+      "precio": 3750,
+      "descripcion": "Empanadas chinas fritas rellenas con verdura",
+      "stock": 4,
+      "categoria":"Empanadas"
+    }
+]

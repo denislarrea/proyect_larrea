@@ -1,6 +1,6 @@
 // import './App.css'
 import Navbar from "./components/Navbar"
-import Productlist from "./components/Productlist"
+import Productlist from "./components/ItemListContainer"
 import Footer from "./components/Footer"
 
 

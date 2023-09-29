@@ -1,0 +1,43 @@
+.listado {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 2rem;
+    padding-block: 2rem;
+    margin: 15px;
+  }
+  
+  .producto {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    overflow: hidden;
+    align-items: center;
+    border-style:hidden;
+    color: black;
+    padding: 1rem; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1); 
+  
+  }
+  
+  .img-product {
+    background-color: rgb(205, 205, 243);
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    padding: 1rem; 
+  }
+
+
+   .ver-mas {
+    text-decoration: none;
+    background-color: var(--clr-main);
+    color: rgb(238, 69, 69);
+    padding: .5rem;
+    width: max-content;
+    border-radius: .5rem;
+    transition: .2s;
+}
+.ver-mas:hover {
+    background-color: black;
+    color: rgb(238, 145, 145);
+}
