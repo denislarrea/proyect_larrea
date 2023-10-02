@@ -1,4 +1,5 @@
 import './style.css'
+import { pedirItemPorId } from "../../helpers/pedirDatos";
 
 
 const ItemDetail = ( {item} ) => {
