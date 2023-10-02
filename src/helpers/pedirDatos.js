@@ -1,4 +1,4 @@
-import data from "../assets/Data/listado.json"
+import data from "../assets/Data/Listado.json"
 
 export const pedirDatos = () => {
 
@@ -12,7 +12,7 @@ export const pedirDatos = () => {
 export const pedirItemPorId = (id) => {
     return new Promise ((resolve, reject) => {
 
-        const item = data.find((el) =>el.id === id);
+        const item = data.find((el) => el.id === id);
        
         if (item) {
             resolve(item);
