@@ -2,6 +2,7 @@
 import Navbar from "./components/Navbar"
 import Productlist from "./components/ItemListContainer"
 import Footer from "./components/Footer"
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
   <main className="main">
     <Navbar />
     <Productlist greeting={greetingMessage} /> 
+    <ItemDetailContainer  itemId={2} />
+
     <Footer /> 
    
   </main>

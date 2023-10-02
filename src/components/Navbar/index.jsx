@@ -23,6 +23,11 @@ function Navbar() {
       </a>
       <nav className="navbar">
         <ul className="menu">
+        <li>
+            <a href="#" className="menu-link">
+              Inicio
+            </a>
+          </li>             
           <li>
             <a
               href="#"
@@ -40,11 +45,6 @@ function Navbar() {
                   <li>Postres</li>
                 </ul>
               )}
-            </a>
-          </li>
-          <li>
-            <a href="#" className="menu-link">
-              Inicio
             </a>
           </li>
           <li>
