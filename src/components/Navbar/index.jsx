@@ -8,23 +8,20 @@ const Navbar = () => {
 
 
   return (
-    <div className="header">
+    <nav className="header">
       <Link to="/" className="logo">
         <img src={shop} alt="logo" className="shop-img" />
         <h1>Mercado-Shop</h1>
       </Link>
       <ul className="menu">
         <li> <Link to="/" className="menu-link">Inicio</Link> </li> 
-        <li><Link to="/item/productos/Pizzas"  className="menu-link"></Link>Pizzas</li>
-        <li><Link to="/item/productos/Milanesas"  className="menu-link"></Link>Milanesas</li>
-          
-          
-          <li><Link to="/item/productos/Empanadas"  className="menu-link"></Link>Comida China</li>
-         
-         
-          <li><Link to="/item/productos/Postres"  className="menu-link"></Link>Postres</li>
-          
-          <li>
+        <li><Link to="/productos"  className="menu-link">Productos</Link></li>
+        <li><Link to="/productos/Pizzas"  className="menu-link">Pizzas</Link></li>
+        <li><Link to="/productos/Milanesas"  className="menu-link">Milanesas</Link></li>
+        <li><Link to="/productos/Empanadas"  className="menu-link">Empanadas</Link></li>
+        <li><Link to="/productos/Comida China"  className="menu-link">Comida China</Link></li>
+        <li><Link to="/productos/Postres"  className="menu-link">Postres</Link></li>
+        <li>
             <Link to="/Contacto" className="menu-link">
               Contacto
             </Link>
@@ -34,7 +31,7 @@ const Navbar = () => {
       <div className="card-widget">
         <CardWidget />
       </div>
-    </div>
+    </nav>
   );
 }
 

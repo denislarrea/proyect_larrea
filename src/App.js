@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ItemList from "./components/ItemList/ItemList";
 import Item from "./components/ItemList/Item";
 
+
 function App() {
   const greetingMessage = '¡Echa un vistazo a nuestros increíbles productos que tenemos para vos!';
   return ( 
@@ -18,9 +19,10 @@ function App() {
     <Navbar />
     <Routes>
       <Route path="/" element={<ItemListContainer greeting={greetingMessage} />}/>
-      <Route path="/Item/:id" element={<ItemDetailContainer  />}/>
-      <Route path="/productos" element={<ItemDetailContainer  />}/>
-      <Route path="/Item/productos/:categoria" element={<ItemDetailContainer  />}/>
+      <Route path="/item/:id" element={<ItemDetailContainer  />}/>
+      <Route path="/productos" element={<ItemListContainer  />}/>
+      <Route path="/productos/:categoria" element={<ItemListContainer />}/>
+    
     </Routes>
 
 

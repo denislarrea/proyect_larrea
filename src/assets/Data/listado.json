@@ -6,7 +6,7 @@
       "precio": 4800,
       "descripcion": "Pizza de 8 porciones con relleno de mozzarella, jamón y cebolla. Masa al molde.",
       "stock": 10,
-      "categoria":"Pizzas"
+      "categoria": "Pizzas"
     },
     {
       "id": 2,
@@ -15,7 +15,7 @@
       "precio": 4160,
       "descripcion": "Mozzarella y pepperoni. Pizza de 8 porciones.",
       "stock": 10,
-      "categoria":"Pizzas"
+      "categoria": "Pizzas"
     },
     {
       "id": 3,
@@ -24,7 +24,7 @@
       "precio": 470,
       "descripcion": "Empanada de carne picada al horno. 1 unidad.",
       "stock": 20,
-      "categoria":"Empanadas"
+      "categoria": "Empanadas"
     },
     {
       "id": 4,
@@ -33,7 +33,7 @@
       "precio": 960,
       "descripcion": "Porción de budín de pan.",
       "stock": 6,
-      "categoria":"Postres"
+      "categoria": "Postres"
     },
     {
       "id": 5,
@@ -42,7 +42,7 @@
       "precio": 2300,
       "descripcion": "Pote de 1/4 de helado. Hasta 3 sabores a elección.",
       "stock": 8,
-      "categoria":"Postres"
+      "categoria": "Postres"
     },
     {
       "id": 6,
@@ -51,7 +51,7 @@
       "precio": 1200,
       "descripcion": "Porción de torta balcarce.",
       "stock": 10,
-      "categoria":"Postres"
+      "categoria": "Postres"
     },
     {
       "id": 7,
@@ -60,7 +60,7 @@
       "precio": 3133,
       "descripcion": "Milanesa del club con guarnición. Muzzarella, jamón cocido, rodajas de tomate fresco, huevo frito y perejil.",
       "stock": 5,
-      "categoria":"Milanesas"
+      "categoria": "Milanesas"
     },
     {
       "id": 8,
@@ -69,16 +69,16 @@
       "precio": 3750,
       "descripcion": "Sándwich gigante de milanesa bien completo, puede ser de pollo o ternera. Viene con jamón cocido, queso muzzarella, mayonesa, mostaza, tomate, lechuga, cebolla morada y huevo frito. Además incluye papas fritas.",
       "stock": 4,
-      "categoria":"Milanesas"
+      "categoria": "Milanesas"
     },
     {
       "id": 9,
       "titulo": "Sushi combo 1",
-      "imagen": "https://images.deliveryhero.io/image/pedidosya/products/9213b82c-1d86-4d5f-8227-ce4fc97bba6a.jpg",
+      "imagen": "https://images.deliveryhero.io/image/pedidosya/products/36d04622-6527-4fb7-be78-2cbf1f758380.jpg?quality=90&width=1680&webp=1",
       "precio": 3750,
       "descripcion": "Tabla con 15 piezas de sushi",
       "stock": 4,
-      "categoria":"Comida China"
+      "categoria": "Comida China"
     },
     {
       "id": 10,
@@ -87,7 +87,7 @@
       "precio": 3750,
       "descripcion": "Ensalada de arroz, queso untable, verduras ralladas, palta y camarones rebozados",
       "stock": 4,
-      "categoria":"Comida China"
+      "categoria": "Comida China"
     },
     {
       "id": 11,
@@ -96,7 +96,7 @@
       "precio": 3750,
       "descripcion": "Bombones congelados de frambuesa banada en chocolate blanco y con leche.",
       "stock": 4,
-      "categoria":"Postres"
+      "categoria": "Postres"
     },
     {
       "id": 12,
@@ -105,7 +105,7 @@
       "precio": 3750,
       "descripcion": "Otro combo de sushi",
       "stock": 4,
-      "categoria":"Comida China"
+      "categoria": "Comida China"
     },
     {
       "id": 13,
@@ -114,7 +114,7 @@
       "precio": 3750,
       "descripcion": "Otro combo de sushi",
       "stock": 4,
-      "categoria":"Comida China"
+      "categoria": "Comida China"
     },
     {
       "id": 14,
@@ -123,6 +123,6 @@
       "precio": 3750,
       "descripcion": "Empanadas chinas fritas rellenas con verdura",
       "stock": 4,
-      "categoria":"Empanadas"
+      "categoria": "Empanadas"
     }
 ]
