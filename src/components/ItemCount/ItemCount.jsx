@@ -1,19 +1,18 @@
-import React, { useState } from 'react'
+
 import './style.css'
 
-const ItemCount = ( ) => {
+const ItemCount = ( {cantidad, handleRestar, handleSumar, handleAgregar} ) => {
 
-    const [cantidad,setCantidad] = useState(1)
 
   return (
     <div>
 
         <div className="item-count">
-            <button >-</button>
+            <button onClick={handleRestar} >-</button>
             <p >{cantidad}</p>
-            <button >+</button>
+            <button onClick={handleSumar} >+</button>
         </div>
-        <button className="agregar-al-carrito" >Agregar al carrito</button>
+        <button className="agregar-al-carrito" onClick={handleAgregar}>Agregar al carrito</button>
     </div>
   )
 }
