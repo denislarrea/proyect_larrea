@@ -3,7 +3,7 @@ import { CartContext } from "../../context/CartContext"
 import './style.css'
 const Carrito = () => {
 
-    const { carrito, precioTotal, vaciarCarrito} = useContext(CartContext)
+    const { carrito, precioTotal, vaciarCarrito, eliminarItem} = useContext(CartContext)
 const handleVaciar = ()=> {
     vaciarCarrito ()
 }
@@ -21,6 +21,7 @@ const handleVaciar = ()=> {
                     <p className="precio-carrito">Precio unit: ${prod.precio}</p>
                     <p className="precio-carrito">Precio total: ${prod.precio * prod.cantidad}</p>
                     <p className="precio-carrito">Cant: {prod.cantidad}</p>
+                    <button onClick={() => eliminarItem(prod)}>X</button>
                     </div>
                 </div>
             ))

@@ -13,9 +13,7 @@ export const CartProvider = ({children}) => {
 
   const nuevoCarrito = [...carrito]
   const estaEnElCarrito = nuevoCarrito.find((producto) => producto.id === itemAgregado.id)
-  
-  
-  if (estaEnElCarrito) {
+   if (estaEnElCarrito) {
     estaEnElCarrito.cantidad += cantidad;
    
   } else {
@@ -36,6 +34,11 @@ const vaciarCarrito = () => {
   setCarrito([])
 }
 
+const eliminarItem = (item) => {
+  const nuevoCarritoEliminado = carrito.filter((producto) => producto.id !== item.id);
+  setCarrito(nuevoCarritoEliminado);
+  console.log('Producto eliminado:', item);
+};
 useEffect(() => {
     localStorage.setItem("carrito", JSON.stringify(carrito));
 }, [carrito])
@@ -46,7 +49,8 @@ return (
     agregarAlCarrito,
     cantidadEnCarrito,
     precioTotal,
-    vaciarCarrito
+    vaciarCarrito,
+    eliminarItem
        }} >
  {children}
 </CartContext.Provider>
