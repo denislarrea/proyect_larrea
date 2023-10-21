@@ -2,11 +2,11 @@ import data from "../assets/Data/listado.json"
 
 export const pedirDatos = () => {
 
-    return new Promise ((resolve,reject) => {
-        setTimeout( () =>{
-            resolve(data);
-        },200)
-    })
+//return new Promise ((resolve,reject) => {
+ //       setTimeout( () =>{
+ //           resolve(data);
+ //       },200)
+ //   })
 }
 
 export const pedirItemPorId = (id) => {

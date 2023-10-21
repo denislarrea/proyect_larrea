@@ -10,39 +10,42 @@ const handleVaciar = ()=> {
     vaciarCarrito ()
 }
    
-  return (
-    <div className="container">
-        <h1 className="main-title">Carrito</h1>
+  const Carrito = () => {
 
-        {
-            carrito.map((prod) => (
-                <div className="producto-detalle"  key={prod.id}>
-                    <img  src={prod.imagen} alt={prod.titulo} />
+    const { carrito, precioTotal, vaciarCarrito, eliminarItem } = useContext(CartContext);
+
+    const handleVaciar = () => {
+        vaciarCarrito();
+    }}
+
+    return (
+        <div className="carrito-container">
+            <h1 className="carrito-title">Carrito de Compras</h1>
+
+            {carrito.map((prod) => (
+                <div className="producto-detalle" key={prod.id}>
+                    <img src={prod.imagen} alt={prod.titulo} />
                     <div>
-                    <h3 className="titulo">{prod.titulo}</h3>
-                    <p className="precio-carrito">Precio unit: ${prod.precio}</p>
-                    <p className="precio-carrito">Precio total: ${prod.precio * prod.cantidad}</p>
-                    <p className="precio-carrito">Cant: {prod.cantidad}</p>
-                    <button onClick={() => eliminarItem(prod)}>X</button>
+                        <h3 className="producto-titulo">{prod.titulo}</h3>
+                        <p className="producto-precio">Precio unitario: ${prod.precio}</p>
+                        <p className="producto-precio">Precio total: ${prod.precio * prod.cantidad}</p>
+                        <p className="producto-cantidad">Cantidad: {prod.cantidad}</p>
+                        <button className="producto-eliminar" onClick={() => eliminarItem(prod)}>X</button>
                     </div>
                 </div>
-            ))
+            ))}
 
-        }
-
-{  
-            carrito.length > 0 ?
-            <>
-                <h2>Precio total: ${precioTotal()}</h2>
-                <button onClick={handleVaciar}>Vaciar</button>
-                <Link to="/checkout">Finalizar compra</Link>
-               
-            </> :
-            <h2>El carrito está vacío :(</h2>
-        }
-
-    </div>
-  )
+            {  
+                carrito.length > 0 ?
+                <>
+                    <h2>Total a Pagar: ${precioTotal()}</h2>
+                    <button className="carrito-vaciar" onClick={handleVaciar}>Vaciar Carrito</button>
+                    <Link className="carrito-comprar" to="/checkout">Finalizar Compra</Link>
+                </> :
+                <h2>¡El carrito está vacío!</h2>
+            }
+        </div>
+    );
 }
 
 export default Carrito

@@ -1,49 +1,43 @@
-.container {
-    max-width: 1140px;
-    padding-inline: 1.5rem;
+.item-detail-container {
+    max-width: 600px;
     margin: 0 auto;
-    align-items: center;
-}
-
-
-
-.producto-detalle {
-    padding-block: 2rem;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 2rem;
-
-}
-
-.producto-detalle img {
-    width: 100%;
-    
-}
-
-.titulo  {
-    font-size: 2rem;
-    color: tomato;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
   
-}
-
-
-.categoria {
-    font-size: .8rem;
-    color: #424242;
-    margin-top: 1rem;
-}
-
-.precio {
-    font-size: 2rem;
-    margin-top: 2rem;
-    font-weight: 600;
-    color: yellowgreen;
-    width: max-content;
-    border-radius: .5rem;
-    padding: .5rem;
-    transition: .2s;
-    text-align: center;
-}
+  .producto-detalle {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-image {
+    max-width: 300px; /* Ajusta el ancho máximo de la imagen según tus preferencias */
+    max-height: 300px; /* Ajusta la altura máxima de la imagen según tus preferencias */
+    margin-right: 20px;
+  }
+  
+  .titulo-item {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .descripcion {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .categoria {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .precio {
+    font-size: 18px;
+    color: #ff6600;
+  }
 
 .precio:hover {
     background-color: rgb(108, 216, 114);
