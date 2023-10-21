@@ -9,8 +9,8 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  background-color:rgb(121, 134, 106);
-  color: white;
+  background-color: #333; 
+  color: #fff; 
 }
 
 .logo {
@@ -53,10 +53,10 @@ body {
   position: absolute;
   background-color: rgb(121, 134, 106);
   color: white;
-  display: none; /* Inicialmente oculto */
+  display: none; 
   z-index: 1;
 }
 
 .menu-link:hover .product-menu {
-  display: block; /* Mostrar el menú cuando el enlace se encuentra en hover */
+  display: block; 
 }

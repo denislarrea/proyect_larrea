@@ -42,6 +42,9 @@ const handleVaciar = ()=> {
                     <button className="carrito-vaciar" onClick={handleVaciar}>Vaciar Carrito</button>
                     <Link className="carrito-comprar" to="/checkout">Finalizar Compra</Link>
                 </> :
+
+        
+
                 <h2>¡El carrito está vacío!</h2>
             }
         </div>

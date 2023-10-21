@@ -10,16 +10,16 @@ import { CartContext } from "../../../context/CartContext";
     const { cantidadEnCarrito } = useContext(CartContext)
 
     return (
-      <div className="card">
-        
+      <div className="card-widget">
         <Link to="/carrito">
-        <img src={Card} alt="Carrito" className="card-img"/>
-        <span className="card-text">{cantidadEnCarrito()}</span>
+          <div className="card-container">
+            <img src={Card} alt="Carrito" className="card-img" />
+            <span className="card-text">{cantidadEnCarrito()}</span>
+          </div>
         </Link>
-        
       </div>
     );
-   }
+  }
   
 
 export default CardWidget

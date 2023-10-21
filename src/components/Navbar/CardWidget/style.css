@@ -6,19 +6,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #007bff; /* Color de fondo */
-    color: #fff; /* Color del texto */
+    background-color: #97efc1; 
+    color: #fff;
     padding: 10px;
-    border-radius: 50%; /* Para hacer un círculo */
+    border-radius: 50%; 
   }
   
   .card-img {
-    max-width: 40px; /* Tamaño máximo de la imagen del carrito */
-    margin-right: 10px; /* Espaciado entre la imagen y el texto */
+    max-width: 40px; 
+    margin-right: 10px; 
   }
   
   .card-text {
-    font-size: 18px; /* Tamaño del texto */
+    font-size: 18px; 
     font-weight: bold;
   }
  

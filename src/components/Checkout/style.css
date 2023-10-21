@@ -3,7 +3,7 @@
 .checkout-container {
     text-align: center;
     max-width: 400px;
-    margin: 20px auto; /* Aumenta el margen superior e inferior */
+    margin: 20px auto; 
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -18,7 +18,7 @@
 
   .pedido-id {
     font-weight: bold;
-    font-size: 20px; /* Ajusta el tamaño de fuente según tus preferencias */
+    font-size: 20px; 
   }
   
   .checkout-form {

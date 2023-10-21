@@ -3,7 +3,7 @@ import { CartContext } from '../../context/CartContext';
 import { useForm } from 'react-hook-form';
 import { collection, addDoc } from 'firebase/firestore';
 import { db } from '../../firebase/Config';
-import './style.css'; // Importa un archivo de estilos CSS
+import './style.css'; 
 
 const Checkout = () => {
   const [pedidoId, setPedidoId] = useState('');

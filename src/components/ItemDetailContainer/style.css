@@ -13,8 +13,8 @@
   }
   
   .item-image {
-    max-width: 300px; /* Ajusta el ancho máximo de la imagen según tus preferencias */
-    max-height: 300px; /* Ajusta la altura máxima de la imagen según tus preferencias */
+    max-width: 300px; 
+    max-height: 300px; 
     margin-right: 20px;
   }
   

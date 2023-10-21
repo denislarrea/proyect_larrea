@@ -31,7 +31,9 @@ const ItemListContainer = ( { greeting } ) => {
         })
 
     }, [categoria])
-    
+ 
+// Para que me traiga el nombre de la categoria
+
     useEffect(() => {
         if (categoria) {
             setTitulo(categoria);
