@@ -2,7 +2,7 @@ import "./style.css"
 import Card from "../../../assets/Iconos/Card.png"
 import { Link } from "react-router-dom";
 import { useContext } from "react";
-import { CartContext } from "../../../context/CartContext";
+import { CartContext } from "../../context/CartContext";
 
 
    function CardWidget() {

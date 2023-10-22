@@ -1,6 +1,6 @@
 import React, { useState } from 'react'; // Importa useState
 import "./style.css"
-import CardWidget from './CardWidget'
+import CardWidget from './CardWidget/CardWidget'
 import shop from '../../assets/Iconos/Shop.png'
 import { Link } from 'react-router-dom';
 

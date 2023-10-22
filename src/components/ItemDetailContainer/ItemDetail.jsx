@@ -2,7 +2,7 @@ import './style.css'
 //import { pedirItemPorId } from "../../helpers/pedirDatos";
 import ItemCount from '../ItemCount/ItemCount';
 import { useContext, useState } from 'react';
-import { CartContext } from '../../context/CartContext';
+import { CartContext } from '../context/CartContext';
 
 
 const ItemDetail = ( {item} ) => {
