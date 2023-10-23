@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+Este proyecto fue creado usando Create React App.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Scripts Disponibles
+Dentro del directorio del proyecto, puedes ejecutar:
 
-## Available Scripts
+npm install 
+Ejecuta este comando para instalar las librerias necesarias de node_modules
 
-In the project directory, you can run:
+npm start
+Ejecuta la aplicación en modo de desarrollo.
+Abre http://localhost:3000 para verla en tu navegador.
 
-### `npm start`
+La página se recargará cuando realices cambios.
+También puedes ver cualquier error de lint en la consola.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para crear la funcionalidad necesaria para un proyecto ecommerce con carrito se crearon varios componentes (en distintas carpetas con su stylo.css). NavBar, Footer, CartContext, CartWidget, Item, ItemList, ItemListContainer, ItemDetailContainer, ItemDetail, ItemCount, LoadingSpinner y CartView, CheckOut.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Navbar = Componente que contiene los links para la navegación dentro de la app, el logo y el ícono del carrito.
 
-### `npm test`
+CartWidget = Componente del ícono del carrito de compras.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Footer= Componente con el diseño del footer.
 
-### `npm run build`
+CartContext = Componente con toda la programación para mostrar el estado del contenido del carrito de compras.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Item = Componente que se encarga de generar el diseño de los ítems que se muestran en la lista del catálogo.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ItemList = Componente que se encarga de pasarle los parámetros a Item para generar cada unidad en la lista del catálogo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ItemListContainer = Componente con toda la lógica y programación para leer la base de datos y obtener los items.
 
-### `npm run eject`
+ItemDetailContainer = Componente con la funcionalidad necesaria para crear el ItemDetail, los detalles del producto.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ItemDetail = Componente con los estilos necesarios para tomar la información que envía ItemDetailContainer.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ItemCount = Componente para agregar o quitar n productos al carrito desde la sección de detalles del producto.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+CartView = Componente para generar el carrito de compras recibiendo la información que genera CartContext.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+CheckOut = Componente para generar el paso final del proceso de compras, donde el cliente ingresa sus datos y realiza el pago.
