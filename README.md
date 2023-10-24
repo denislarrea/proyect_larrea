@@ -1,3 +1,12 @@
+Video de navegabilidad de pag.
+
+
+
+
+https://github.com/denislarrea/proyect_larrea/assets/94191499/9d3e3eb1-9888-41bf-93ef-eb5d3576d409
+
+
+
 Este proyecto fue creado usando Create React App.
 
 Scripts Disponibles
